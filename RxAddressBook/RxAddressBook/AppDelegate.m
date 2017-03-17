@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <AddressBook/AddressBook.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    ABAddressBookRef addressBook = ABAddressBookCreateWithOptions(NULL, NULL);
+    ABAddressBookRequestAccessWithCompletion(addressBook, ^(bool granted, CFErrorRef error) {
+        if (granted) {
+            NSLog(@"授权成功！");
+        } else {
+            NSLog(@"授权失败!");
+        }
+    });
+    CFRelease(addressBook);
+    
     return YES;
 }
 

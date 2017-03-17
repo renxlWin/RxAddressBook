@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF3245541E7BBC2D00938550 /* personModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3245531E7BBC2D00938550 /* personModel.m */; };
 		DF411C771E767107000DD364 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF411C761E767107000DD364 /* main.m */; };
 		DF411C7A1E767107000DD364 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF411C791E767107000DD364 /* AppDelegate.m */; };
 		DF411C7D1E767107000DD364 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF411C7C1E767107000DD364 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF3245521E7BBC2D00938550 /* personModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personModel.h; sourceTree = "<group>"; };
+		DF3245531E7BBC2D00938550 /* personModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = personModel.m; sourceTree = "<group>"; };
 		DF411C721E767107000DD364 /* RxAddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxAddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF411C761E767107000DD364 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF411C781E767107000DD364 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				DF411C791E767107000DD364 /* AppDelegate.m */,
 				DF411C7B1E767107000DD364 /* ViewController.h */,
 				DF411C7C1E767107000DD364 /* ViewController.m */,
+				DF3245521E7BBC2D00938550 /* personModel.h */,
+				DF3245531E7BBC2D00938550 /* personModel.m */,
 				DF411C7E1E767107000DD364 /* Main.storyboard */,
 				DF411C811E767107000DD364 /* Assets.xcassets */,
 				DF411C831E767107000DD364 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3245541E7BBC2D00938550 /* personModel.m in Sources */,
 				DF411C7D1E767107000DD364 /* ViewController.m in Sources */,
 				DF411C7A1E767107000DD364 /* AppDelegate.m in Sources */,
 				DF411C771E767107000DD364 /* main.m in Sources */,
@@ -429,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P7U52R78ZF;
 				INFOPLIST_FILE = RxAddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rxl.RxAddressBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P7U52R78ZF;
 				INFOPLIST_FILE = RxAddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rxl.RxAddressBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +524,7 @@
 				DF411CA11E767107000DD364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF411CA21E767107000DD364 /* Build configuration list for PBXNativeTarget "RxAddressBookTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				DF411CA41E767107000DD364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF411CA51E767107000DD364 /* Build configuration list for PBXNativeTarget "RxAddressBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				DF411CA71E767107000DD364 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
